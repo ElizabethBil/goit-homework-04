@@ -1,0 +1,419 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
+
+/* ALWAYS */
+
+/* :root {
+  --primary-color: ;
+  --secondary-color: ;
+  --accent-color: ;
+} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.list {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.page-container {
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
+/* .main {
+    flex-grow: 1;
+} */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* HEADER */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header-container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.page-navigation-links {
+  display: flex;
+  gap: 40px;
+}
+
+.page-navigation-adress {
+  display: flex;
+gap: 40px;
+}
+
+.web-studio {
+  text-decoration: none;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+.navigation-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding: 24px 0;
+  display: block;
+}
+
+.navigation-link:hover {
+  color: #404bbf;
+}
+
+.navigation-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.address-link:hover {
+  color: #404bbf;
+}
+
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* MAIN */
+
+main {
+  flex-grow: 1;
+}
+
+.text-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
+}
+
+/* ====Hero====  */
+
+.hero-container {
+  gap: 48px;
+}
+
+.hero {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.hero-button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  align-items: center;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* Our Features */
+
+.our-features-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+
+.our-features-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-features-item {
+width: calc((100% - 48px) / 4);
+}
+
+.text-title-our-features {
+  margin-bottom: 8px;
+}
+
+.text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  background-color: #ffffff;
+}
+
+/* Our Team */
+
+.our-team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.our-team-list .cards {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
+}
+
+.our-team-container {
+  padding: 32px 0;
+}
+
+.our-team-section-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-text-title {
+  margin-bottom: 8px;
+}
+
+.our-team-names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+/* Our Portfolio */
+
+.our-portfolio {
+  
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.our-portfolio-container {
+  align-content: center;
+ 
+}
+
+.our-portfolio-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.our-portfolio-text-title {
+  margin-bottom: 8px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 72px;
+  column-gap: 24px;
+  row-gap: 48px;
+  align-content: center;
+  text-align: center;
+}
+
+.our-portfolio-list:nth-child(2n+1) {
+  row-gap: 0;
+}
+
+.our-portfolio-cards {
+  background: #fff;
+}
+
+.our-portfolio-description {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+   border-top: none;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-container {}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+
+.web-studio-footer {
+  display: inline-block;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.studio-footer {
+  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
