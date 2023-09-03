@@ -236,7 +236,8 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1440px;
-
+margin-right: auto;
+margin-left: auto;
 }
 
 
