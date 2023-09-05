@@ -176,7 +176,6 @@ gap: 40px;
 
 .navigation-link:hover, .navigation-link:focus {
   color: #404bbf;
-  padding-bottom: 0;
   }
 
 .current {
@@ -185,7 +184,7 @@ gap: 40px;
       0,
       0.2,
       1);
-  padding-bottom: 0;
+  position: relative;
 }
 
 .current::after {
@@ -193,9 +192,12 @@ gap: 40px;
     content: "";
     align-items: stretch;
     height: 4px;
+    width: 48px;
     border-radius: 2px;
     background: var(--OCEAN, #404BBF);
-    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
 }
 
 
@@ -424,7 +426,7 @@ padding: 32px 0;
   justify-content: center;
   text-align: center;
   gap: 8px;
-  padding-top: 32px;
+  padding: 32px 0;
 }
 
 /* Our Portfolio */
@@ -467,7 +469,7 @@ padding: 32px 0;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-cards:hover {
+.our-portfolio-cards:hover, .our-portfolio-cards:focus {
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
